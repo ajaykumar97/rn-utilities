@@ -29,8 +29,8 @@ const getAPIError = (error) => {
 };
 
 const truncateString = (string, numOfChars = 50) => {
-    if (string.length > numOfWords) {
-        return `${string.slice(0, numOfWords > 3 ? numOfWords - 3 : numOfWords)}...`;
+    if (string.length > numOfChars) {
+        return `${string.slice(0, numOfChars > 3 ? numOfChars - 3 : numOfChars)}...`;
     }
     return str;
 };
@@ -104,7 +104,6 @@ export {
     intoTitleCase,
     keyExtractor,
     getAPIError,
-    truncateString,
     truncateString,
     getCityRegionCountryFromGoogleApiResults,
     formatBytes,

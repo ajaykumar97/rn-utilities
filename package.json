@@ -24,5 +24,8 @@
     "bugs": {
         "url": "https://github.com/ajaykumar97/rn-utilities/issues"
     },
-    "homepage": "https://github.com/ajaykumar97/rn-utilities#readme"
+    "homepage": "https://github.com/ajaykumar97/rn-utilities#readme",
+    "dependencies": {
+        "react-native-iphone-x-helper": "^1.2.1"
+    }
 }
