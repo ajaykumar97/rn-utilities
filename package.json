@@ -1,11 +1,11 @@
 {
     "name": "rn-utilities",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "These are the utility methods for react native to ace the development process.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "postpublish" : "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git push origin v$PACKAGE_VERSION"
+        "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git push origin v$PACKAGE_VERSION"
     },
     "repository": {
         "type": "git",
