@@ -1,6 +1,6 @@
 {
     "name": "rn-utilities",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "These are the utility methods for react native to ace the development process.",
     "main": "index.js",
     "scripts": {
