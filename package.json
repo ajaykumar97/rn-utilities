@@ -1,32 +1,31 @@
 {
-    "name": "rn-utilities",
-    "version": "0.1.5",
-    "description": "These are the utility methods for react native to ace the development process.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git push origin v$PACKAGE_VERSION"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ajaykumar97/rn-utilities.git"
-    },
-    "keywords": [
-        "helper-functions",
-        "helper",
-        "react",
-        "native",
-        "react-native",
-        "helper",
-        "functions"
-    ],
-    "author": "Ajay Kumar",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/ajaykumar97/rn-utilities/issues"
-    },
-    "homepage": "https://github.com/ajaykumar97/rn-utilities#readme",
-    "dependencies": {
-        "react-native-iphone-x-helper": "^1.2.1"
-    }
+  "name": "rn-utilities",
+  "version": "0.1.5",
+  "description": "These are the utility methods for react native to ace the development process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaykumar97/rn-utilities.git"
+  },
+  "keywords": [
+    "helper-functions",
+    "helper",
+    "react",
+    "native",
+    "react-native",
+    "helper",
+    "functions"
+  ],
+  "author": "Ajay Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajaykumar97/rn-utilities/issues"
+  },
+  "homepage": "https://github.com/ajaykumar97/rn-utilities#readme",
+  "dependencies": {
+    "react-native-iphone-x-helper": "^1.2.1"
+  }
 }
