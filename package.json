@@ -36,9 +36,6 @@
     },
     "hooks": {
       "after:bump": "npx auto-changelog -p"
-    },
-    "github": {
-      "release": true
     }
   },
   "devDependencies": {
