@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it"
+    "release": "release-it",
+    "release:patch": "standard-version -- --release-as patch && git push --follow-tags origin master && npm publish",
+    "release:minor": "standard-version -- --release-as minor && git push --follow-tags origin master && npm publish",
+    "release:major": "standard-version -- --release-as major && git push --follow-tags origin master && npm publish"
   },
   "repository": {
     "type": "git",
