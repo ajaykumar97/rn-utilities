@@ -29,17 +29,6 @@
   "dependencies": {
     "react-native-iphone-x-helper": "^1.2.1"
   },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release v${version}"
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular",
-        "infile": "CHANGELOG.md"
-      }
-    }    
-  },
   "devDependencies": {
     "@release-it/conventional-changelog": "^3.0.1",
     "release-it": "^14.6.2"
