@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it",
     "release:patch": "standard-version -- --release-as patch && git push --follow-tags origin master && npm publish",
     "release:minor": "standard-version -- --release-as minor && git push --follow-tags origin master && npm publish",
     "release:major": "standard-version -- --release-as major && git push --follow-tags origin master && npm publish"
@@ -32,8 +31,5 @@
   "dependencies": {
     "react-native-iphone-x-helper": "^1.2.1"
   },
-  "devDependencies": {
-    "@release-it/conventional-changelog": "^2.0.1",
-    "release-it": "^14.6.2"
-  }
+  "devDependencies": {}
 }
