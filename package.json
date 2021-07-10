@@ -31,5 +31,7 @@
   "dependencies": {
     "react-native-iphone-x-helper": "^1.2.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "standard-version": "^9.3.0"
+  }
 }
