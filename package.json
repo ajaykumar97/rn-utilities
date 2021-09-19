@@ -36,10 +36,12 @@
     "@release-it/conventional-changelog": "^3.3.0",
     "standard-version": "^9.3.0"
   },
-  "plugins": {
-    "@release-it/conventional-changelog": {
-      "preset": "angular",
-      "infile": "CHANGELOG.md"
+  "release-it": {
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      }
     }
   }
 }
