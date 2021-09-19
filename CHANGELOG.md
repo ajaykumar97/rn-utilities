@@ -1,3 +1,15 @@
+# [0.2.0](https://github.com/ajaykumar97/rn-utilities/compare/v0.1.11...v0.2.0) (2021-09-19)
+
+
+### Bug Fixes
+
+* fixed release-it config ([d3000db](https://github.com/ajaykumar97/rn-utilities/commit/d3000db46ca609db761cdbc7be2faee390f9bc35))
+
+
+### Features
+
+* added `release-it` ([02abb5f](https://github.com/ajaykumar97/rn-utilities/commit/02abb5f633af13e689ce5c2380686fa4882c3bdf))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
