@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "release:patch": "standard-version -- --release-as patch && git push --follow-tags origin master && npm publish",
     "release:minor": "standard-version -- --release-as minor && git push --follow-tags origin master && npm publish",
-    "release:major": "standard-version -- --release-as major && git push --follow-tags origin master && npm publish"
+    "release:major": "standard-version -- --release-as major && git push --follow-tags origin master && npm publish",
+    "release": "npx release-it"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,13 @@
     "react-native-iphone-x-helper": "^1.2.1"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^3.3.0",
     "standard-version": "^9.3.0"
-  }
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": "CHANGELOG.md"
+    }
+  }  
 }
