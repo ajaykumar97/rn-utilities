@@ -1,6 +1,6 @@
 {
   "name": "rn-utilities",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "These are the utility methods for react native to ace the development process.",
   "main": "index.js",
   "scripts": {
@@ -41,5 +41,5 @@
       "preset": "angular",
       "infile": "CHANGELOG.md"
     }
-  }  
+  }
 }
